@@ -15,12 +15,6 @@ const Hireme = () => {
         <br />
         <div className="flex items-center md:flex-row flex-col-reverse ">
           <img
-            src={Hireme.image1}
-            alt="..."
-            data-aos="fade-right"
-            className="max-w-sm md:block hidden"
-          />
-          <img
             src={Hireme.image2}
             data-aos="fade-up"
             alt="..."

@@ -22,7 +22,6 @@ import avatar2 from "./assets/images/Testimonials/avatar2.png";
 import avatar3 from "./assets/images/Testimonials/avatar3.png";
 import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
-import Hireme_person from "./assets/images/Hireme/person.png";
 import Hireme_person2 from "./assets/images/Hireme/person2.png";
 
 // import icons from react-icons
@@ -58,18 +57,18 @@ export const content = {
     },
   ],
   hero: {
-    title: "Web Developer",
-    firstName: "JOHN",
-    LastName: "ALEX",
+    title: "Web and Mobile Application Developer",
+    firstName: "My name is Permpree",
+    LastName: "Vornthaisong",
     btnText: "Hire Me",
     image: Hero_person,
     hero_content: [
       {
-        count: "8+",
+        count: "1+",
         text: "Years of Experinse in Web development",
       },
       {
-        count: "20+",
+        count: "2+",
         text: "Projects Worked in my career",
       },
     ],
@@ -80,32 +79,32 @@ export const content = {
     skills_content: [
       {
         name: "Figma",
-        para: "Lorem ipsum text  dummy",
+        para: "Design UX-UI",
         logo: figma,
       },
       {
         name: "Node js",
-        para: "Lorem ipsum text  dummy",
+        para: "Back-end",
         logo: nodejs,
       },
       {
-        name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
+        name: "Angular",
+        para: "Web Development",
         logo: ps,
       },
       {
         name: "React js",
-        para: "Lorem ipsum text  dummy",
+        para: "Web Development",
         logo: reactjs,
       },
       {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
+        name: "Flutter",
+        para: "Mobile Appication development",
         logo: sketch,
       },
       {
-        name: "Python",
-        para: "Lorem ipsum text  dummy",
+        name: "Line App",
+        para: "Line-Liff development",
         logo: python,
       },
     ],
@@ -117,17 +116,17 @@ export const content = {
     service_content: [
       {
         title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "Create and develop high-performance websites using the latest technologies. We provide consultation and continuously improve your website to ensure it reaches its full potential",
         logo: services_logo1,
       },
       {
         title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "Design user experiences (UX) and user interfaces (UI) that are both beautiful and intuitive, ensuring the best possible experience for users across all platforms",
         logo: services_logo2,
       },
       {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Mobile App Development",
+        para: "Crafting high-quality, user-friendly mobile applications that cater to your specific needs. From conceptual design to deployment, we specialize in creating feature-rich, scalable apps that offer seamless performance on both Android and iOS platforms",
         logo: services_logo3,
       },
     ],
@@ -138,15 +137,11 @@ export const content = {
     image: person_project,
     project_content: [
       {
-        title: "Gym Website",
+        title: "Exchange item App",
         image: project1,
       },
       {
-        title: "Social Media web",
-        image: project2,
-      },
-      {
-        title: "Creative Website",
+        title: "The application for collecting data on rubber plantations (Demo)",
         image: project3,
       },
     ],
@@ -184,9 +179,8 @@ export const content = {
   Hireme: {
     title: "Hire Me",
     subtitle: "FOR YOUR PROJECTS",
-    image1: Hireme_person,
     image2: Hireme_person2,
-    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+    para: "If you have challenges or need to develop your organization, please hire me. I am here to provide tailored solutions that meet your specific needs and help you achieve your goals efficiently.",
     btnText: "Hire Me",
   },
   Contact: {
@@ -194,19 +188,19 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "pramepreejobe@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "pramepreejobe@gmail.com",
       },
       {
-        text: "+91 1234 56778",
+        text: "+66 9522 47765",
         icon: MdCall,
         link: "https://wa.me/1234567890",
       },
       {
-        text: "codeaprogram",
+        text: "perm_pdpa",
         icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        link: "https://www.instagram.com/perm_pdpa/",
       },
     ],
   },
