@@ -37,7 +37,7 @@ const Skills = () => {
   return (
     <section className="min-h-fit bg-bg_light_primary" id="skills">
       {/* modal */}
-      <Modal
+      {/* <Modal
         isOpen={modalIsOpen}
         onRequestClose={closeModal}
         style={customStyles}
@@ -65,7 +65,7 @@ const Skills = () => {
             Close
           </button>
         </div>
-      </Modal>
+      </Modal> */}
 
       {/* content */}
       <div className="md:container px-5  py-14">

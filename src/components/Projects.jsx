@@ -39,18 +39,36 @@ const Projects = () => {
             className="rounded-3xl pb-16 max-w-xs drop-shadow-primary self-start"
           >
             {Projects.project_content.map((content, i) => (
-              <SwiperSlide
-                key={i}
-                className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-fit"
-              >
-                <img src={content.image} alt="..." />
-                <div className="flex flex-col gap-1 mt-3">
-                  <h5 className="font-bold font-Poppins">{content.title}</h5>
-                  <button className="font-bold text-gray self-end">
-                    READ MORE
-                  </button>
-                </div>
-              </SwiperSlide>
+             <SwiperSlide
+             key={i}
+             className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-auto flex flex-col justify-center items-center"
+           >
+             {content.video ? (
+               <video
+                 controls
+                 className="w-full h-full object-cover rounded-lg" // Fixed width and height for the video
+               >
+                 <source src={content.video} type="video/mp4" />
+                 Your browser does not support the video tag.
+               </video>
+             ) : (
+               <img
+                 src={content.image}
+                 alt="..."
+                 className="w-[300px] h-auto"
+                 onError={(e) => {
+                   e.target.onerror = null;
+                   e.target.src = "fallback_image_url"; // Add fallback image URL here
+                 }}
+               />
+             )}
+             <div className="flex flex-col gap-1 mt-3">
+               <h5 className="font-bold font-Poppins">{content.title}</h5>
+               <button className="font-bold text-gray self-end">READ MORE</button>
+             </div>
+           </SwiperSlide>
+           
+            
             ))}
           </Swiper>
         </div>

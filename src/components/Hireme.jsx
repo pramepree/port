@@ -6,7 +6,7 @@ const Hireme = () => {
   return (
     <section className="bg-bg_light_primary">
       <div className="md:container px-5 pt-14">
-        <h2 className="title" data-aos="fade-down">
+        <h2 className="title" data-aos="fade-down" onClick={() => window.open('https://drive.google.com/file/d/1OkkWeA2fezhV-o05Ib7ur-V3FUOZFs6R/view?usp=sharing', '_blank')}>
           {Hireme.title}
         </h2>
         <h4 className="subtitle" data-aos="fade-down">

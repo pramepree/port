@@ -13,8 +13,11 @@ import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
 import project1 from "./assets/images/projects/img1.png";
+import vdo_swap from "./assets/images/projects/vdo_swap.mp4";
 import project2 from "./assets/images/projects/img2.png";
 import project3 from "./assets/images/projects/img3.png";
+import vdo222 from "./assets/images/projects/vdo222.mp4";
+import vdo_game from "./assets/images/projects/vdo_game.mp4";
 import person_project from "./assets/images/projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
@@ -60,15 +63,14 @@ export const content = {
     title: "Web and Mobile Application Developer",
     firstName: "My name is Permpree",
     LastName: "Vornthaisong",
-    btnText: "Hire Me",
+    btnText: "View Education Results",
     image: Hero_person,
     hero_content: [
       {
-        count: "1+",
-        text: "Years of Experinse in Web development",
+        text: "I have completed an internship at one place for a duration of 2 and a half months",
       },
       {
-        count: "2+",
+        count: "3",
         text: "Projects Worked in my career",
       },
     ],
@@ -141,8 +143,16 @@ export const content = {
         image: project1,
       },
       {
+        title: "Exchange item App",
+        video: vdo_swap,
+      },
+      {
         title: "The application for collecting data on rubber plantations (Demo)",
         image: project3,
+      },
+      {
+        title: "Electric Motor Circuit Simulator",
+        video : vdo_game,
       },
     ],
   },
@@ -188,19 +198,13 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "pramepreejobe@gmail.com",
+        text: "permpreevornthaisong@gmail.com",
         icon: GrMail,
-        link: "pramepreejobe@gmail.com",
       },
       {
-        text: "+66 9522 47765",
+        text: "088-777-0185",
         icon: MdCall,
         link: "https://wa.me/1234567890",
-      },
-      {
-        text: "perm_pdpa",
-        icon: BsInstagram,
-        link: "https://www.instagram.com/perm_pdpa/",
       },
     ],
   },

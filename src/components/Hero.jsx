@@ -20,7 +20,7 @@ const Hero = () => {
           <h2 className="pt-5">{hero.firstName}</h2>
           <br />
           <div className="flex justify-end">
-            <button className="btn">{hero.btnText}</button>
+            <button className="btn" onClick={() => window.open('https://drive.google.com/file/d/1OkkWeA2fezhV-o05Ib7ur-V3FUOZFs6R/view?usp=sharing', '_blank')} >{hero.btnText}</button>
           </div>
           <div className="flex flex-col gap-10 mt-10">
             {hero.hero_content.map((content, i) => (
